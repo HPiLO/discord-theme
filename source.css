@@ -1,14 +1,3 @@
-@font-face {
-    font-family: 'SF UI Display';
-    font-weight: bold;
-    font-style: normal;
-    src: url('https://github.com/HPiLO/discord-theme/raw/main/SFUIDisplay-Bold.ttf') format('truetype');
-};
-
-* {
-    font-family: 'SF UI Display', sans-serif;
-};
-
 :root {
     --app-font: "SF UI Display";
     --app-background: hsl(0,0%,0%);
@@ -83,7 +72,6 @@
     --code-font: SF UI Display;
 
     --pink-color: hsl(330, 97%, 77%);
-
 }
   
   /*
@@ -966,6 +954,10 @@
     top: 12px;
     right: 0;
     background-color: var(--app-background);
+  }
+
+  .vc-spotify-repeat-track:hover {
+    color: hsl(330, 97%, 77%);
   }
   
   /*
