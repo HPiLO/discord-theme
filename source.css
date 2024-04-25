@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'SF UI Display';
+    font-weight: bold;
+    font-style: normal;
+    src: url('https://github.com/HPiLO/discord-theme/raw/main/SFUIDisplay-Bold.ttf') format('truetype');
+};
+
+* {
+    font-family: 'SF UI Display', sans-serif;
+};
+
 :root {
     --app-font: "SFUIDisplay-Bold";
     --app-background: hsl(0,0%,0%);
