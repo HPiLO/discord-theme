@@ -955,6 +955,15 @@
     right: 0;
     background-color: var(--app-background);
   }
+
+  .vc-spotify-shuffle-on,
+.vc-spotify-repeat-context,
+.vc-spotify-repeat-track,
+.vc-spotify-shuffle-on:hover,
+.vc-spotify-repeat-context:hover,
+.vc-spotify-repeat-track:hover {
+    color: hsl(330, 97%, 77%);
+}
   
   /*
    *
